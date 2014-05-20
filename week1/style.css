@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #09402E;
+	margin: 0;
+	padding: 0;
+	color: #F4F4F4;
+	
+}
+form{
+margin:0 auto;
+width:600px;
+padding:14px;
+border:solid 2px #425955;
+}
+h1 {
+	font-family: Bubble;
+	text-align: center;
+	font-size: 32pt;
+    color: #ffffff;
+}
+
+
+.container {
+	width: 960px;
+	height: 720px;
+	background-color: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+.image { 
+   position: relative; 
+   width: 100%;
+}
+
+.wire { 
+   position: relative; 
+   width: 60%;
+}
+
+.imageText
+ {
+	position: absolute;
+	top: 17px;
+	left: 23px;
+	width: 892px;
+	height: 116px;
+	font-family: Bubble;
+	font-size:150%;
+	text-shadow: 0px 0px 15px black;
+}
+
+.content {
+
+	padding: 10px 0;
+		border-width:10px;	
+		border-style: none;
+}
+
+.footer {
+	margin-left:auto;
+	margin-right:auto;	
+	text-align: center;
+}
+iframe {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+#content
+{
+	background-color: #F5ECD9;
+	padding: 20px 10px;
+	overflow: auto;
+}
+
+#tab-container
+{
+	float: left;
+	margin: 50px 0 0 0;
+	width: 150px;
+}
+#tab-container ul
+{
+	list-style: none;
+	text-align: center;
+}
+#tab-container ul li
+{
+	border-top: 1px solid #666;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	border-left: 8px solid #666;
+	background-color: #E8275B;
+	margin: 8px 0;
+}
+#tab-container ul li a,
+#tab-container ul li a:visited
+{
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 15px 5px;
+}
+#tab-container ul li:hover
+{
+	border-left: 8px solid #333;
+}
+#tab-container ul li a:hover
+{
+	color: #000;
+}
+#tab-container ul li.selected
+{
+	border-right: none;
+	background-color: black;
+	border-left: 8px solid #006699;
+}
+#main-container
+{
+	min-height: 400px;
+	margin: 0 0 0 125px;
+	padding: 10px;
+	background-color: #3B3B3B;
+	border: 1px solid #888;
+}
+
+
