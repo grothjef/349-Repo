@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	background-color: #333634;
+		}	
+body {
+	background-color: #161617;
+}	
+img {
+	position:absolute;
+	padding:0px 10px 0px;
+    }
+section {
+	background: white;
+	padding: 5px;
+		}
+article {
+	height: 180px;
+	width: 180px;
+	padding: 15px;
+	margin: 20px;
+	float: left;
+	color: #EDDEAD;
+	background-color: #C92F35;
+		}
+.pic {
+	position: relative;
+	margin-top:125px;
+	background-color:#304746;
+	padding-left:10px;
+		}		
+.display {
+	margin: 50px auto;
+	max-width: 1024px;
+		}
+footer {
+	text-align: center;
+	padding: 20px;
+		}
